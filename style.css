@@ -1,0 +1,58 @@
+#active
+{
+    color : red;
+}
+#grid
+{
+    display : grid;
+    grid-template-columns : 1fr 3fr;
+}
+a
+{
+    text-decoration : none;
+}
+p
+{
+  text-indent : 6px;
+}
+h1
+{
+    text-align : center;
+    font-size : 45px;
+    padding : 25px;
+    border-bottom : solid black 2px;
+    margin : 0;
+}
+.left
+{
+    border-right : solid black 2px;
+}
+.left h2
+{
+    text-align : center;
+}
+.right
+{
+    margin : 20px;
+}
+@media(max-width:900px)
+{
+    h1
+    {
+        font-size : 25px;
+        padding : 15px;
+        border : 0;
+    }
+    h2
+    {
+        font-size : 23px;
+    }
+    #grid
+    {
+        display : block;
+    }
+    .left
+    {
+        border : none;
+    }
+}
