@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title> '도박' 경마의 긍정적 효과를 조명하다 </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h1>
       <a href="index.html"> '도박' 경마의 긍정적 효과를 조명하다 </a>
     </h1>
+
+    <input class="mode_changer" type="button" value="night" onclick="light_switch()">
+
     <div id="grid">
       <div class="left">
         <h2>
@@ -18,7 +21,7 @@
           <ol>
             <li><a href="1.html"> 서론 </a></li>
             <li><a href="2.html"> 경마에 대한 대중의 선입견 </a></li>
-            <li><a href="3.html" id="active"> 경마의 효용과 가치 </a></li>
+            <li><a href="3.html" class="active"> 경마의 효용과 가치 </a></li>
             <li><a href="4.html"> 경마의 인식 개선을 위한 방안 </a></li>
             <li><a href="5.html"> 결론 </a></li>
           </ol>
@@ -38,5 +41,7 @@
         </p>
       </div>
     </div>
+
+    <script src="js/light_dark_mode.js"></script>
   </body>
 </html>
